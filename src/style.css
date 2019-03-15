@@ -1,0 +1,31 @@
+body {
+  /* reset */
+  margin: 0;
+  padding: 0;
+
+  /* allow full screen */
+  display: flex;
+  height: 100vh;
+  flex-direction: row;
+}
+
+#selectors {
+  height: 100vh;
+  background-color: #f0fbd0;
+  overflow: auto;
+}
+
+#leaflet {
+  flex: 1;
+  height: 100vh;
+}
+
+ul {
+  padding: 1em;
+  line-height: 2;
+  margin: 0;
+}
+
+li {
+  list-style-type: none;
+}
