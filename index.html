@@ -20,7 +20,24 @@
 
 <body>
   <div id="leaflet"></div>
-  <div id="selectors"></div>
+  <div id="selectors">
+    <button class="btn-all" type="button">Show all</button>
+    <button class="btn-odpt" type="button">Open Data</button>
+    <ul class="list"></ul>
+  </div>
+
+  <template id="link-lines">
+    <div class="link-lines-name"></div>
+    <input class="link-lines-filter" type="text" />
+    <ul class="link-lines-results"></ul>
+  </template>
+
+  <template id="link-action">
+    <li class="link-action-item">
+      <button class="link-action-btn" type="button">Connect</button>
+      <div class="link-action-name"></div>
+    </li>
+  </template>
 
   <script src="src/main.js"></script>
 </body>

@@ -16,6 +16,7 @@
     "eslint": "5.15.1"
   },
   "dependencies": {
+    "add-open-data-railway-lines": "file:../add-open-data-railway-lines",
     "import-railway-stations": "file:../import-railway-stations"
   }
 }

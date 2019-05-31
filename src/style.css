@@ -29,3 +29,7 @@ ul {
 li {
   list-style-type: none;
 }
+
+.link-action-item {
+  display: flex;
+}
